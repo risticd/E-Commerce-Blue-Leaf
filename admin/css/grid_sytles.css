@@ -1,0 +1,38 @@
+    #container	{ position: relative; margin-left: auto; margin-right: auto; width: 760px; text-align: left; }
+    
+    /* Table Grid  ----------------------------------*/
+    #dataTable { font-size: 80%; }
+    
+    .ui-grid { width: 98%; padding: .5em; background-image: none; }
+    .ui-state-default { padding: .4em; }
+    .ui-grid .ui-grid-content { width: 100%; border-collapse: collapse; }
+    .ui-grid table tbody td, .ui-grid .ui-grid-header, .ui-grid table thead a { padding: .4em;  }
+    .ui-grid table tbody td {  text-align: left; font-weight: normal;  }
+    .ui-grid .ui-grid-header, .ui-grid .ui-grid-footer { padding: .8em .4em; text-align: right; }
+    .ui-grid .ui-grid-footer { background-image: none; font-weight: normal; text-align: left; }
+    .ui-grid table thead a { display: block;  }
+    .ui-grid .ui-icon { float: right; }
+    .ui-grid .ui-grid-paging { float: right; }
+    .ui-grid .ui-grid-paging-prev { float: left; width: 16px; height: 16px; }
+    .ui-grid .ui-grid-paging-next { float: right; width: 16px; height: 16px; }
+    .ui-grid .ui-grid-results {  }
+
+    .header-right { float:right; }
+    .header-left { float:left; }
+
+    .cStoreDataTable tr:hover { background-color: #D1DFEB; cursor:pointer; }
+    .cStoreDataTable tr { border-bottom:1px #ccc dotted; }
+
+    .leftcolumn { width: 500px; float: left; }
+    .rightcolumn { width: 60px; float: right; }
+
+    /* input styles */
+    textarea, select,
+    input[type="text"] 						{ margin-right:30px;-webkit-appearance: none;-moz-border-radius: 0;-webkit-border-radius: 0;border-radius: 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;-moz-background-clip: padding;-webkit-background-clip: padding;background-clip: padding-box;background-color: #fff;border: 1px solid;border-color: #848484 #c1c1c1 #e1e1e1;color: #000;outline: 0;padding: 4px 3px;font-size: 13px;font-family: Arial, sans-serif;height: 30px;*padding-top: 2px;*padding-bottom: 1px;*height: auto;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset;-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset;-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;width:250px;}
+
+	/*
+	**** CSS Clearfix ******************************************
+	*/
+
+	.clearfix:after    										{ content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;	}
+
